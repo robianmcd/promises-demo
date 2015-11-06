@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Promises</title>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="mainCtrl as ctrl">
+    <h1>{{ctrl.joke}}</h1>
+    <button ng-click="ctrl.tellAJoke()">Tell a Joke</button>
+</body>
+</html>
